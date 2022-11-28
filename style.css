@@ -253,6 +253,45 @@ main section{
     color: var(--icon-color);
     font-size: 0.9rem;
 }
+
+
+/* google search pages */
+
+.search-pages-container{
+    width: 30vw;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.search-pages{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.search-pages p{
+    font-size: 0.9rem;
+    letter-spacing: 4px;
+    margin-top: 0.3rem;
+    color: #8ab4f7;
+}
+
+.search-pages-icons{
+    margin: 1rem 0 0 0.8rem;
+    color: #8ab4f7;
+}
+
+.search-pages-icons p{
+    color: #8ab4f7;
+    margin-top: 0.8rem;
+}
+
+
 /* right side */
 
 .side-card{
