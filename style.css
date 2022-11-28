@@ -130,3 +130,39 @@ header div ul{
 header div ul li{
    font-size: 1.3rem;
 }
+
+
+/* options section */
+
+.options{
+    margin-top: -1rem;
+    border-bottom: 2px solid var(--btn-color);
+    padding-bottom: 0.8rem;
+}
+
+.options ul{
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.options ul{
+    display: grid;
+    grid-template-columns: 4rem 6rem 6rem 6rem 6rem 8rem 2rem;
+    color: var(--icon-color);
+    position: relative;
+}
+
+.option-all{
+    color: #8ab4f7;
+}
+
+.option-all::after{
+    content: '';
+    width:3px;
+    height: 35px;
+    position:absolute;
+    left:1rem;
+    top:1rem;
+    background-color: #8ab4f7;
+    transform: rotate(90deg);
+}
