@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+:root{
+    --bg-color:#202123;
+    --footer-font-color:#919599;
+    --icon-color:#919599;
+    --btn-color:#303135;
+    --footer-bg-color:#181818;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
+    background-color: #202123;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9rem;
+    position: relative;
+    height: 250vh;
+}
+
+img{
+    width: 100%;
+    /* display: block; */
+}
+
+li{
+    list-style: none;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 10rem 1fr 10rem;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 7rem;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+header section{
+    position:relative;
+}
+
+.fa-x{
+    font-size: 1rem;
+    position: absolute;
+    top:13px;
+    left:30rem;
+    color:var(--icon-color);
+}
+
+.fa-x::after{
+    content: '';
+    width:1px;
+    height: 30px;
+    position:absolute;
+    left:1.5rem;
+    top: -5px;
+    background-color: #555;
+}
+
+.fa-microphone{
+    font-size: 1.3rem;
+    position: absolute;
+    top:13px;
+    left:32.5rem;
+    color:var(--icon-color);
+}
+
+.fa-camera{
+    font-size: 1.3rem;
+    position: absolute;
+    top:13px;
+    left:35rem;
+    color:var(--icon-color);
+}
+
+.search-magnifying-glass{
+    font-size: 1.2rem;
+    position: absolute;
+    top:13px;
+    left:37.5rem;
+    color:#8ab4f7;
+}
+/* header section div ul{
+    display: grid;
+    grid-template-columns: repeat(7,4rem);
+} */
+
+.profile-img{
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: white;
+    color: #222;
+    border-radius: 50%;
+}
+
+
+.search-bar{
+    min-width:40rem;
+    height: 2.7rem;
+    background-color: var(--btn-color);
+    border: 0.5px solid #555;
+    border-radius: 2rem;
+    color:#fff;
+    padding-left: 2rem;
+}
+
+header div ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+header div ul li{
+   font-size: 1.3rem;
+}
