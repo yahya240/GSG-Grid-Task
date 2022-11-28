@@ -399,3 +399,71 @@ main section{
 .relative-searches-item h4{
     color: #8ab4f7;
 }
+
+/* footer section */
+
+footer{
+    background-color: #555;
+    color: #919599;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.regin{
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    text-transform: capitalize;
+    background-color: #181818;
+    padding: 0.7rem 1.5rem;
+    padding-left: 15vw;
+}
+
+.regin p {
+    position: relative;
+}
+
+.regin p span::after{
+    content: '';
+    width:1px;
+    height: 32px;
+    position:absolute;
+    left:4.3rem;
+    background-color: #555;
+}
+
+.regin h4 a{
+    color: #bdc1c4;
+}
+
+.regin h4{
+    position: relative;
+    padding-left: 0.8rem;
+}
+
+.regin h4 a::before{
+    content: '';
+    height: 8px;
+    width: 8px;
+    background-color: #bdc1c4;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top:6px
+}
+
+.regin h4 a span{
+    color: #8399d6;
+}
+
+.footer-info{
+    margin-top: 1px;
+    background-color: #181818;
+    padding: 0.7rem 1.5rem;
+    padding-left: 15vw;
+}
+
+.flex-container{
+    display: flex;
+    gap:1.5rem;
+}
