@@ -22,7 +22,7 @@ body{
     font-weight: 300;
     font-size: 0.9rem;
     position: relative;
-    height: 250vh;
+    height: 1550px;
 }
 
 img{
@@ -98,10 +98,6 @@ header section{
     left:37.5rem;
     color:#8ab4f7;
 }
-/* header section div ul{
-    display: grid;
-    grid-template-columns: repeat(7,4rem);
-} */
 
 .profile-img{
     width: 1.7rem;
@@ -172,7 +168,6 @@ header div ul li{
 
 main{
     width: 75vw;
-    height: 100vh;
     margin: 1rem auto;
 }
 
@@ -297,7 +292,7 @@ main section{
 .side-card{
     border: 1px solid var(--btn-color);
     border-radius: 1rem;
-    height: 70%;
+    max-height: 800px;
 }
 .search-images{
     margin: 0;
